@@ -1,0 +1,24 @@
+<div class="container my-5">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">View User</a></li>
+    </ol>
+  </nav>
+</div>
+  {{#each rows}}
+<div class="card">
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      
+     <div class="row"><div class="col-6"> <li class="list-group-item">{{this.firstName}}</li></div> 
+   <div class="col-6"> <li class="list-group-item">{{this.lastName}}</li></div> 
+   <div class="row"><div class="col-6"> <li class="list-group-item">{{this.phone}}</li></div> 
+   <div class="col-6"> <li class="list-group-item">{{this.comments}}</li></div> 
+   </div>
+  
+  </ul>
+  </div>
+</div> 
+{{/each }}
+   

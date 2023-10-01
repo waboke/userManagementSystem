@@ -1,0 +1,34 @@
+{
+  "name": "usermanagementsystem",
+  "version": "1.0.0",
+  "description": "This is a CRUD application to demostrate the get, post, delete and put functionality in Node js and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waboke/userManagementSystem.git"
+  },
+  "keywords": [
+    "User",
+    "Managemnet"
+  ],
+  "author": "William Rupert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waboke/userManagementSystem/issues"
+  },
+  "homepage": "https://github.com/waboke/userManagementSystem#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
